@@ -12,7 +12,7 @@
             VerticalOptions="Center">
 
             <Image
-                HeightRequest="200"
+                HeightRequest="50"
                 HorizontalOptions="Center"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
                 Source="dotnet_bot.png" />
@@ -25,7 +25,7 @@
 
             <controls:HybridWebView
                 x:Name="MyWebView"
-                HeightRequest="140"
+                HeightRequest="280"
                 HorizontalOptions="Fill"
                 Source="{Binding Source}"
                 VerticalOptions="FillAndExpand"

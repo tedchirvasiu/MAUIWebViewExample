@@ -97,7 +97,7 @@ public class HybridWebViewHandler : ViewHandler<IHybridWebView, WebView2>
                     var url = 'http://localhost:32000';
                     http.open('POST', url, true);
                     http.setRequestHeader('Content-type', 'application/json');
-                    http.send(JSON.stringify(data));
+                    http.send(data);
                 }";
 
     //private JSBridge jsBridgeHandler;
